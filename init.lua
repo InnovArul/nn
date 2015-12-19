@@ -138,7 +138,8 @@ include('CrossEntropyCriterion.lua')
 include('ParallelCriterion.lua')
 
 include('StochasticGradient.lua')
-
+include('CrossInputNeighborhood.lua')
+         
 include('MM.lua')
 
 include('Jacobian.lua')

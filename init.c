@@ -154,7 +154,6 @@
 LUA_EXTERNC DLL_EXPORT int luaopen_libnn(lua_State *L);
 
 int luaopen_libnn(lua_State *L) {
-	printf("inside nn/init.c");
 	lua_newtable(L);
 	lua_pushvalue(L, -1);
 	lua_setglobal(L, "nn");
